@@ -9,3 +9,5 @@ import Foundation
 import UIKit
 
 print("Hello World")
+
+var myName = "Jhon"
