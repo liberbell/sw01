@@ -12,3 +12,4 @@ print("Hello World")
 
 var myName = "Jhon"
 myName
+print(myName)
