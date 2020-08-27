@@ -15,6 +15,7 @@
 		7DCDF90524F72E520018F9B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCDF8DA24F72E4D0018F9B3 /* ContentView.swift */; };
 		7DCDF90624F72E520018F9B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCDF8DB24F72E510018F9B3 /* Assets.xcassets */; };
 		7DCDF90724F72E520018F9B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCDF8DB24F72E510018F9B3 /* Assets.xcassets */; };
+		7DCDF91724F72F450018F9B3 /* hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCDF91624F72F450018F9B3 /* hello.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7DCDF8FB24F72E520018F9B3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCDF8FF24F72E520018F9B3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		7DCDF90124F72E520018F9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DCDF91624F72F450018F9B3 /* hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			children = (
 				7DCDF8FF24F72E520018F9B3 /* Tests_macOS.swift */,
 				7DCDF90124F72E520018F9B3 /* Info.plist */,
+				7DCDF91624F72F450018F9B3 /* hello.swift */,
 			);
 			path = "Tests macOS";
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DCDF91724F72F450018F9B3 /* hello.swift in Sources */,
 				7DCDF90024F72E520018F9B3 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
